@@ -1,0 +1,151 @@
+body{
+  background-color: rgb(101, 0, 0);
+}
+
+.photo_title{
+  width: 100%;
+  height: 200px;
+  background-image: url(house.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10%;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.button_in_menu{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;  
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS';
+    font-size: 24px;
+    padding-top: 10px;
+    margin: 10px;
+        
+}
+
+.button_in_menu a{
+    text-decoration:none;
+    color: black;
+}
+
+.button_in_menu:hover{
+  background-color: rgb(208, 208, 208);
+}
+
+.button_in_menu:focus {
+vertical-align: middle;
+background-color: rgb(174, 174, 174);
+}
+
+.button{font-size: 20px;}
+
+.button:hover{
+  background-color: rgb(208, 208, 208);
+}
+
+.button:focus {
+vertical-align: middle;
+background-color: rgb(174, 174, 174);
+}
+
+.acess{
+  background-color: rgba(255, 255, 255, 0.36);
+  width: 80%;
+  height: 800px;
+  text-align: center;
+  color: rgb(223, 0, 0);
+  font-family: 'Trebuchet MS';
+  font-size: 20px;
+  padding-top: 5px;
+  margin: 10%;
+}
+
+.information{
+  width: 90%;
+  padding-bottom: 20px;
+  margin:5%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family:monospace;
+  font-size: 40px;
+}
+
+.leftText{
+  width: 60%;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-family:monospace;
+  font-size: 28px;
+}
+
+.rightText{
+  float: right;
+  width: 60%;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-family:monospace;
+  font-size: 28px;
+}
+
+input{
+  width: 80%;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;  
+  border:none;
+  outline: none;
+  margin: 30px;
+}
+
+select{
+width: 100px;
+height: 40px;
+display: block;
+margin: 0 auto;
+border-radius: 5px;  
+border:none;
+outline: none;
+margin: 30px;
+}
+
+.leftPhoto{
+  float: left;
+  width: 200px;
+  padding-top: 100px;
+}
+
+.accordion {
+  border: 1px solid #ddd; 
+  background-color: white;
+  color: black;
+  text-align: left;
+  font-size: 18px;
+  border-top: none; 
+  margin: 10%;
+  width: 80%; 
+  position: relative;
+  border-radius: 5px;  
+  }
+
+.accordion h3{
+  margin: 20px;
+  color: black;
+  font-family:monospace;
+  font-size: 20px;
+}
+   
+#accordion-html5{
+  clear: both; 
+  margin-top: 5px;
+}
+
+  
